@@ -21,6 +21,9 @@ import sys
 import psychopy.visual
 import psychopy.event
 import psychopy.core
+import psychopy.logging
+
+psychopy.logging.console.setLevel(psychopy.logging.CRITICAL)
 
 win = psychopy.visual.Window(
     units='pix', color=(1, 1, 1), colorSpace='rgb', fullscr=True)
